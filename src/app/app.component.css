@@ -1,0 +1,847 @@
+.top {
+    position: absolute;
+    width: 100%;
+    height: 50vh !important;
+    padding: 2% 10%;
+    left: 0px;
+    top: -1px;
+    background: linear-gradient(123.75deg, #f5821f 1.87%, #ff5c00 120.46%);
+}
+
+.hand {
+    height: 2.2rem;
+}
+
+.faq-container {
+    position: absolute;
+    top: 38vh;
+    background: white;
+    margin: 0% 4% 40% 4%;
+    width: 92%;
+    padding: 3em 3em 1.5em 3em;
+    border-radius: 0.4em;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    height: 60%;
+}
+
+.bot {
+    background: linear-gradient(180deg, #ff7600 0%, #ff5c00 100%);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    padding: 1.8em;
+    border-radius: 50%;
+    width: max-content;
+    position: absolute;
+    top: 18.5em;
+    left: 8em;
+    z-index: 10;
+}
+
+.indicator {
+    height: 1em;
+    align-self: center;
+    margin-right: 1em;
+}
+
+@media (max-width: 430px) {
+    .normal-font {
+        font: normal normal normal 1.2em DM Sans;
+    }
+    .big-capital-font {
+        font: normal normal bold 2em DM Sans;
+    }
+    .medium-font {
+        font: normal normal bold 1.2em DM Sans;
+    }
+    .hand {
+        height: 1.5rem;
+    }
+    .questions {
+        font: normal normal normal 0.9em DM Sans !important;
+        color: #2d2d2d;
+        text-transform: capitalize;
+    }
+    .card-new {
+        background: #ffffff;
+        border: 1px solid #d1d1d1;
+        box-sizing: border-box;
+        height: 3em !important;
+        box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 100px;
+        padding: 3% 8% !important;
+        justify-self: center;
+        margin-top: 2em !important;
+        width: max-content;
+    }
+    .top-margin {
+        margin-top: 1.7em !important;
+    }
+    .card {
+        background: #ffffff;
+        border: 1px solid #e1e1e1;
+        box-sizing: border-box;
+        height: 2.5em;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+        border-radius: 0.5em;
+        padding: 1% 2% !important;
+        margin: 1em 0;
+    }
+    .faq-container {
+        position: absolute;
+        top: 34.5vh !important;
+        background: white;
+        margin: 0% 2% 2% 2% !important;
+        width: 95%;
+        padding: 1em;
+        border-radius: 0.4em;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    .bot {
+        background: linear-gradient(180deg, #ff7600 0%, #ff5c00 100%);
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+        padding: 1em;
+        border-radius: 50%;
+        width: max-content;
+        position: absolute;
+        top: 12em !important;
+        left: 1em !important;
+        z-index: 10;
+    }
+    .top {
+        position: absolute;
+        width: 100%;
+        height: 50vh !important;
+        padding: 5% 10%;
+        left: 0px;
+        top: -1px;
+        background: linear-gradient(123.75deg, #f5821f 1.87%, #ff5c00 120.46%);
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1365px) {
+    .normal-font {
+        font: normal normal normal 1.35em DM Sans !important;
+    }
+    .big-capital-font {
+        font: normal normal bold 2.1em DM Sans !important;
+        padding-top: 0.4em;
+    }
+    .medium-font {
+        font: normal normal bold 1.85em DM Sans !important;
+    }
+    .faq-container {
+        position: absolute;
+        top: 23vh !important;
+        background: white;
+        margin: 0% 4%;
+        width: 92%;
+        padding: 3em;
+        border-radius: 0.4em;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        height: 45%;
+    }
+    .bot {
+        background: linear-gradient(180deg, #ff7600 0%, #ff5c00 100%);
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+        padding: 2em !important;
+        border-radius: 50%;
+        width: max-content;
+        position: absolute;
+        top: 20vh !important;
+        left: 5em !important;
+    }
+    .top {
+        position: absolute;
+        width: 100%;
+        height: 32vh !important;
+        padding: 2% 12%;
+        left: 0px;
+        top: -1px;
+        background: linear-gradient(123.75deg, #f5821f 1.87%, #ff5c00 120.46%);
+    }
+    .card-new {
+        background: #ffffff;
+        border: 1px solid #d1d1d1;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 100px;
+        padding: 2.5% 8% !important;
+        justify-self: center;
+        margin-top: 4.5em !important;
+        margin-bottom: 2.5em !important;
+        width: max-content;
+    }
+    .card {
+        background: #ffffff;
+        border: 1px solid #e1e1e1;
+        box-sizing: border-box;
+        height: 3.6em !important;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+        border-radius: 0.5em;
+        padding: 1% 2% !important;
+        margin: 2em 0 !important;
+    }
+}
+
+@media only screen and (width: 1024px) and (height: 768px) and (orientation: landscape) {
+    .normal-font {
+        font: normal normal normal 1.5em DM Sans;
+    }
+    .big-capital-font {
+        font: normal normal bold 2.8em DM Sans;
+        padding-top: 0.4em;
+    }
+    .medium-font {
+        font: normal normal bold 2em/2em DM Sans;
+    }
+    .questions {
+        font: normal normal normal 1em DM Sans;
+        color: #2d2d2d;
+        text-transform: capitalize;
+    }
+    .heading-font {
+        font: normal normal 500 1.6em DM Sans;
+        color: #2D2D2D;
+    }
+    .hand {
+        height: 1.5rem;
+    }
+    .card-new {
+        background: #ffffff;
+        border: 1px solid #d1d1d1;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 100px;
+        padding: 2.5% 8% !important;
+        justify-self: center;
+        margin-top: 1.5em !important;
+        margin-bottom: 1.5em !important;
+        width: max-content;
+    }
+    .card {
+        background: #ffffff;
+        border: 1px solid #e1e1e1;
+        box-sizing: border-box;
+        height: 3.6em !important;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+        border-radius: 0.5em;
+        padding: 1% 2% !important;
+        margin: 1em 0;
+    }
+    .faq-container {
+        position: absolute;
+        top: 35.5vh !important;
+        background: white;
+        margin: 0% 4%;
+        width: 92%;
+        padding: 3em;
+        border-radius: 0.4em;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        height: 71%;
+    }
+    .bot {
+        background: linear-gradient(180deg, #ff7600 0%, #ff5c00 100%);
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+        padding: 1.5em !important;
+        border-radius: 50%;
+        width: max-content;
+        position: absolute;
+        top: 30vh !important;
+        left: 4em !important;
+    }
+    .top {
+        position: absolute;
+        width: 100%;
+        height: 45vh !important;
+        padding: 2% 10%;
+        left: 0px;
+        top: -1px;
+        background: linear-gradient(123.75deg, #f5821f 1.87%, #ff5c00 120.46%);
+    }
+}
+
+@media only screen and (width: 768px) and (height: 1024px) and (orientation: portrait) {
+    .normal-font {
+        font: normal normal normal 1.5em DM Sans;
+    }
+    .big-capital-font {
+        font: normal normal bold 2.8em DM Sans;
+    }
+    .medium-font {
+        font: normal normal bold 2em/2em DM Sans;
+    }
+    .questions {
+        font: normal normal normal 1em DM Sans;
+        color: #2d2d2d;
+        text-transform: capitalize;
+    }
+    .heading-font {
+        font: normal normal 500 1.6em DM Sans;
+        color: #2D2D2D;
+    }
+    .hand {
+        height: 1.5rem;
+    }
+    .card-new {
+        background: #ffffff;
+        border: 1px solid #d1d1d1;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 100px;
+        padding: 2.5% 8% !important;
+        justify-self: center;
+        margin-top: 1.5em !important;
+        margin-bottom: 1.5em !important;
+        width: max-content;
+    }
+    .card {
+        background: #ffffff;
+        border: 1px solid #e1e1e1;
+        box-sizing: border-box;
+        height: 3.6em !important;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+        border-radius: 0.5em;
+        padding: 1% 2% !important;
+        margin: 1em 0;
+    }
+    .faq-container {
+        position: absolute;
+        top: 30vh !important;
+        background: white;
+        margin: 0% 4%;
+        width: 92%;
+        padding: 3em;
+        border-radius: 0.4em;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        height: 53%;
+    }
+    .bot {
+        background: linear-gradient(180deg, #ff7600 0%, #ff5c00 100%);
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+        padding: 2em;
+        border-radius: 50%;
+        width: max-content;
+        position: absolute;
+        top: 16em;
+        left: 3em;
+    }
+    .top {
+        position: absolute;
+        width: 100%;
+        height: 40vh !important;
+        padding: 2% 10%;
+        left: 0px;
+        top: -1px;
+        background: linear-gradient(123.75deg, #f5821f 1.87%, #ff5c00 120.46%);
+    }
+}
+
+@media only screen and (min-width: 1360px) and (max-width: 1370px) and (height: 1024px) and (orientation: landscape) {
+    .normal-font {
+        font: normal normal normal 1.5em DM Sans;
+    }
+    .big-capital-font {
+        font: normal normal bold 2.8em DM Sans;
+    }
+    .medium-font {
+        font: normal normal bold 2em/2em DM Sans;
+    }
+    .questions {
+        font: normal normal normal 1em DM Sans;
+        color: #2d2d2d;
+        text-transform: capitalize;
+    }
+    .heading-font {
+        font: normal normal 500 1.6em DM Sans;
+        color: #2D2D2D;
+    }
+    .hand {
+        height: 1.5rem;
+    }
+    .card-new {
+        background: #ffffff;
+        border: 1px solid #d1d1d1;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 100px;
+        padding: 2.5% 8% !important;
+        justify-self: center;
+        margin-top: 1.8em !important;
+        margin-bottom: 1.8em !important;
+        width: max-content;
+    }
+    .card {
+        background: #ffffff;
+        border: 1px solid #e1e1e1;
+        box-sizing: border-box;
+        height: 3.6em !important;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+        border-radius: 0.5em;
+        padding: 1% 2% !important;
+        margin: 1em 0;
+    }
+    .faq-container {
+        position: absolute;
+        top: 32vh !important;
+        background: white;
+        margin: 0% 4%;
+        width: 92%;
+        padding: 3em;
+        border-radius: 0.4em;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        height: 58%;
+    }
+    .bot {
+        background: linear-gradient(180deg, #ff7600 0%, #ff5c00 100%);
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+        padding: 2em;
+        border-radius: 50%;
+        width: max-content;
+        position: absolute;
+        top: 18em;
+        left: 6em;
+    }
+    .top {
+        position: absolute;
+        width: 100%;
+        height: 40vh !important;
+        padding: 2% 10%;
+        left: 0px;
+        top: -1px;
+        background: linear-gradient(123.75deg, #f5821f 1.87%, #ff5c00 120.46%);
+    }
+}
+
+@media (width: 320px) {
+    .normal-font {
+        font: normal normal normal 1.1em DM Sans;
+    }
+    .big-capital-font {
+        font: normal normal bold 1.65em DM Sans;
+    }
+    .medium-font {
+        font: normal normal bold 1.2em DM Sans;
+    }
+    .heading-font {
+        font: normal normal 500 0.9em DM Sans;
+        color: #2D2D2D;
+    }
+    .hand {
+        height: 1.5rem;
+    }
+    .faq-container {
+        position: absolute;
+        top: 30vh;
+        background: white;
+        margin: 0% 4%;
+        width: 92%;
+        padding: 1.8em;
+        border-radius: 0.4em;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    .bot {
+        background: linear-gradient(180deg, #ff7600 0%, #ff5c00 100%);
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+        padding: 1em;
+        border-radius: 50%;
+        width: max-content;
+        position: absolute;
+        top: 29.7vh !important;
+        left: 1em;
+    }
+    .questions {
+        font: normal normal normal 0.8em DM Sans;
+        color: #2d2d2d;
+        text-transform: capitalize;
+    }
+    .card-new {
+        background: #ffffff;
+        border: 1px solid #d1d1d1;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 100px;
+        padding: 2% 4% !important;
+        justify-self: center;
+        margin-top: 1.5em !important;
+        margin-bottom: 1.5em !important;
+        width: max-content;
+    }
+    .card {
+        background: #ffffff;
+        border: 1px solid #e1e1e1;
+        box-sizing: border-box;
+        height: 3.5em !important;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+        border-radius: 0.5em;
+        padding: 1% 2% !important;
+        margin: 1em 0;
+    }
+    .top {
+        position: absolute;
+        width: 100%;
+        height: 40vh !important;
+        padding: 2% 12%;
+        left: 0px;
+        top: -1px;
+        background: linear-gradient(123.75deg, #f5821f 1.87%, #ff5c00 120.46%);
+    }
+}
+
+@media (min-width: 410px) and (max-width: 420px) and (min-height:800px) {
+    .normal-font {
+        font: normal normal normal 1.2em DM Sans;
+    }
+    .big-capital-font {
+        font: normal normal bold 1.8em DM Sans;
+        padding-top: 1em;
+    }
+    .medium-font {
+        font: normal normal bold 1.28em DM Sans;
+    }
+    .heading-font {
+        font: normal normal 500 0.9em DM Sans;
+        color: #2D2D2D;
+    }
+    .hand {
+        height: 1.5rem;
+    }
+    .faq-container {
+        position: absolute;
+        top: 27vh !important;
+        background: white;
+        margin: 0% 4%;
+        width: 92%;
+        padding: 1.8em;
+        border-radius: 0.4em;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        height: 65%;
+    }
+    .top {
+        position: absolute;
+        width: 100%;
+        height: 40vh !important;
+        padding: 2% 12%;
+        left: 0px;
+        top: -1px;
+        background: linear-gradient(123.75deg, #f5821f 1.87%, #ff5c00 120.46%);
+    }
+    .bot {
+        background: linear-gradient(180deg, #ff7600 0%, #ff5c00 100%);
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+        padding: 1em;
+        border-radius: 50%;
+        width: max-content;
+        position: absolute;
+        top: 12em !important;
+        left: 1em;
+    }
+}
+
+@media (min-width: 410px) and (max-width: 420px) and (max-height:800px) {
+    .normal-font {
+        font: normal normal normal 1.2em DM Sans;
+    }
+    .big-capital-font {
+        font: normal normal bold 1.8em DM Sans;
+        padding-top: 0.5em;
+    }
+    .medium-font {
+        font: normal normal bold 1.28em DM Sans;
+    }
+    .heading-font {
+        font: normal normal 500 0.9em DM Sans;
+        color: #2D2D2D;
+    }
+    .hand {
+        height: 1.5rem;
+    }
+    .faq-container {
+        position: absolute;
+        top: 28vh !important;
+        background: white;
+        margin: 0% 4%;
+        width: 92%;
+        padding: 1.8em;
+        border-radius: 0.4em;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        height: 70%;
+    }
+    .top {
+        position: absolute;
+        width: 100%;
+        height: 43vh !important;
+        padding: 2% 10%;
+        left: 0px;
+        top: -1px;
+        background: linear-gradient(123.75deg, #f5821f 1.87%, #ff5c00 120.46%);
+    }
+    .bot {
+        background: linear-gradient(180deg, #ff7600 0%, #ff5c00 100%);
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+        padding: 1em;
+        border-radius: 50%;
+        width: max-content;
+        position: absolute;
+        top: 11em !important;
+        left: 1em;
+    }
+}
+
+@media (min-width: 363px) and (max-width:380px) and (min-height:800px) and (max-height:820px) {
+    .normal-font {
+        font: normal normal normal 1.2em DM Sans;
+    }
+    .big-capital-font {
+        font: normal normal bold 1.8em DM Sans;
+        padding-top: 0.5em;
+    }
+    .medium-font {
+        font: normal normal bold 1.28em DM Sans;
+    }
+    .heading-font {
+        font: normal normal 500 0.9em DM Sans;
+        color: #2D2D2D;
+    }
+    .hand {
+        height: 1.5rem;
+    }
+    .faq-container {
+        position: absolute;
+        top: 27vh !important;
+        background: white;
+        margin: 0% 4%;
+        width: 92%;
+        padding: 1.8em;
+        border-radius: 0.4em;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        height: 65%;
+    }
+    .top {
+        position: absolute;
+        width: 100%;
+        height: 38vh !important;
+        padding: 2% 12%;
+        left: 0px;
+        top: -1px;
+        background: linear-gradient(123.75deg, #f5821f 1.87%, #ff5c00 120.46%);
+    }
+}
+
+
+/* Surface duo - portrait */
+
+@media only screen and (width: 540px) and (height: 720px) {
+    .normal-font {
+        font: normal normal normal 1.2em DM Sans;
+    }
+    .big-capital-font {
+        font: normal normal bold 1.8em DM Sans;
+        padding-top: 0.5em;
+    }
+    .medium-font {
+        font: normal normal bold 1.28em DM Sans;
+    }
+    .heading-font {
+        font: normal normal 500 0.9em DM Sans;
+        color: #2D2D2D;
+    }
+    .hand {
+        height: 1.5rem;
+    }
+    .faq-container {
+        position: absolute;
+        top: 28vh !important;
+        background: white;
+        margin: 0% 4%;
+        width: 92%;
+        padding: 1.8em;
+        border-radius: 0.4em;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        height: 70%;
+    }
+    .top {
+        position: absolute;
+        width: 100%;
+        height: 40vh !important;
+        padding: 2% 10%;
+        left: 0px;
+        top: -1px;
+        background: linear-gradient(123.75deg, #f5821f 1.87%, #ff5c00 120.46%);
+    }
+    .bot {
+        background: linear-gradient(180deg, #ff7600 0%, #ff5c00 100%);
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+        padding: 1em;
+        border-radius: 50%;
+        width: max-content;
+        position: absolute;
+        top: 11em !important;
+        left: 3em;
+    }
+}
+
+
+/* Surface duo - landscape */
+
+@media only screen and (width: 720px) and (height: 540px) {
+    .normal-font {
+        font: normal normal normal 1.2em DM Sans;
+    }
+    .big-capital-font {
+        font: normal normal bold 1.8em DM Sans;
+        padding-top: 0.5em;
+    }
+    .medium-font {
+        font: normal normal bold 1.28em DM Sans;
+    }
+    .heading-font {
+        font: normal normal 500 0.9em DM Sans;
+        color: #2D2D2D;
+    }
+    .hand {
+        height: 1.5rem;
+    }
+    .faq-container {
+        position: absolute;
+        top: 37vh !important;
+        background: white;
+        margin: 0% 4%;
+        width: 92%;
+        padding: 1.8em;
+        border-radius: 0.4em;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        height: 100%;
+    }
+    .top {
+        position: absolute;
+        width: 100%;
+        height: 50vh !important;
+        padding: 2% 10%;
+        left: 0px;
+        top: -1px;
+        background: linear-gradient(123.75deg, #f5821f 1.87%, #ff5c00 120.46%);
+    }
+    .bot {
+        background: linear-gradient(180deg, #ff7600 0%, #ff5c00 100%);
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+        padding: 1em;
+        border-radius: 50%;
+        width: max-content;
+        position: absolute;
+        top: 11em !important;
+        left: 4em;
+    }
+}
+
+
+/* Galaxy fold */
+
+@media only screen and (width: 280px) and (height: 653px) {
+    .normal-font {
+        font: normal normal normal 1.2em DM Sans;
+    }
+    .big-capital-font {
+        font: normal normal bold 1.8em DM Sans;
+        padding-top: 0.5em;
+    }
+    .medium-font {
+        font: normal normal bold 1.28em DM Sans;
+    }
+    .heading-font {
+        font: normal normal 500 0.76em DM Sans;
+        color: #2D2D2D;
+    }
+    .hand {
+        height: 1.5rem;
+    }
+    .faq-container {
+        position: absolute;
+        top: 34vh !important;
+        background: white;
+        margin: 0% 4%;
+        width: 92%;
+        padding: 1.8em;
+        border-radius: 0.4em;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        height: 80%;
+    }
+    .top {
+        position: absolute;
+        width: 100%;
+        height: 50vh !important;
+        padding: 2% 10%;
+        left: 0px;
+        top: -1px;
+        background: linear-gradient(123.75deg, #f5821f 1.87%, #ff5c00 120.46%);
+    }
+    .bot {
+        background: linear-gradient(180deg, #ff7600 0%, #ff5c00 100%);
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+        padding: 1em;
+        border-radius: 50%;
+        width: max-content;
+        position: absolute;
+        top: 12em !important;
+        left: 4em;
+    }
+}
+
+
+/* For galaxy fold - landscape */
+
+@media only screen and (width: 653px) and (height: 280px) {
+    .normal-font {
+        display: none;
+    }
+    .big-capital-font {
+        display: none;
+    }
+    .medium-font {
+        display: none;
+    }
+    .heading-font {
+        display: none;
+    }
+    .hand {
+        display: none;
+    }
+    .faq-container {
+        display: none;
+    }
+    .top {
+        display: none;
+    }
+    .bot {
+        display: none;
+    }
+}
+
+.card {
+    background: #ffffff;
+    border: 1px solid #e1e1e1;
+    height: 3.6em;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 0.5em;
+    padding: 1% 0.6%;
+    margin: 1em 0;
+}
+
+.questions {
+    font: normal normal normal 1.1em DM Sans;
+    color: #2d2d2d;
+    text-transform: capitalize;
+}
+
+.card-new {
+    background: #ffffff;
+    border: 1px solid #d1d1d1;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+    height: 3.6em;
+    padding: 1% 4%;
+    justify-self: center;
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+    width: max-content;
+}
